@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+
+/* @media only screen and (min-width: 160px) {
+    body {
+      background-color: lightblue;
+    }
+  } */
+
+#grad1 {
+    height: 50% px;
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(45, 29, 4));
+}
+
+  * {
+    font-family: 'Jost', sans-serif;
+    font-size:100%;
+}
+
+body {
+    background-image: url(Mock_Images/woodTile.jpg);
+    background-size: 60%;
+    background-repeat: repeat;
+}
+
+.h1{
+    font-family: 'Jost', sans-serif;
+    font-size:300%;
+    color: #7b5f49;
+}
+.h2{
+    font-family: 'Jost', sans-serif;
+    font-size:200%;
+}
+
+.image-container {
+    background-image: url("img_nature.jpg"); /* The image used - important! */
+    background-size: cover;
+    position: relative; /* Needed to position the cutout text in the middle of the image */
+    height: 100%; /* Some height */
+}
+
+.text {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 100%vw; /* Responsive font size */
+    font-weight: bold;
+    margin: 0 auto; /* Center the text container */
+    padding: 10px;
+    width: 50%;
+    text-align: left; /* Center text */
+    position: absolute; /* Position text */
+    top: 50%; /* Position text in the middle */
+    left: 50%; /* Position text in the middle */
+    transform: translate(-50%, -50%); /* Position text in the middle */
+    mix-blend-mode: screen; /* This makes the cutout text possible */
+}
+
+/* *{
+    box-sizing: border-box;
+    padding: 25px 50px 75px 100px
+    /* top / right / bottom / left} */
+/* research above */
+
+#paragraph {
+    padding: 100px;
+    border: red 2px solid;
+    margin: 20px;
+    width: 50%
+}
+
+/* img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    /* research above}  */
